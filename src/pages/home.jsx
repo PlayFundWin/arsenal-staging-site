@@ -1,5 +1,4 @@
-import { Dialog } from '@headlessui/react';
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import { XMarkIcon } from '@heroicons/react/24/outline';
 import { Disclosure } from '@headlessui/react';
 import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline';
 
@@ -94,7 +93,7 @@ function Home() {
         <div className="relative lg:col-span-5 lg:-mr-8 xl:absolute xl:inset-0 xl:left-1/2 xl:ml-20 xl:mr-0">
           <img
             className="aspect-[3/2] w-full bg-gray-50 object-cover lg:absolute lg:inset-0 lg:aspect-auto lg:h-full"
-            src="https://s3.eu-west-2.amazonaws.com/pfw.storage.bucket/images/ad61c1b3-d04e-44da-80f0-78a2bb349f1c-Hero%20Image.jpg"
+            src="https://s3.eu-west-2.amazonaws.com/pfw.storage.bucket/images/9558a913-c039-403b-afb9-720d68658eff-hero-1.jpg"
             alt=""
           />
         </div>
@@ -297,7 +296,7 @@ function ProductDetails1() {
           </div>
           <div className="flex items-start justify-center sm:justify-end lg:order-first">
             <img
-              src="https://s3.eu-west-2.amazonaws.com/pfw.storage.bucket/images/d5268ff7-d1f7-49e2-bcc3-51487496e9f3-Experience%20Image.jpg"
+              src="https://s3.eu-west-2.amazonaws.com/pfw.storage.bucket/images/994a674b-0fe1-46dc-a74c-f900f8a3e3e9-saka-1.jpg"
               alt="Product screenshot"
               className="w-full sm:w-[48rem] md:w-[57rem] lg:w-[64rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10"
               width={2432}
@@ -348,7 +347,7 @@ function ProductDetails2() {
             </div>
           </div>
           <img
-            src="https://s3.eu-west-2.amazonaws.com/pfw.storage.bucket/images/48959e61-050e-447b-bb03-9e46177820bf-Cause%20Image.jpg"
+            src="https://s3.eu-west-2.amazonaws.com/pfw.storage.bucket/images/17007a12-16ed-4f54-84c6-385d01181e3b-165339988_458115988573948_1329745239879252553_n.jpg"
             alt="Product screenshot"
             className="w-full sm:w-[48rem] md:w-[57rem] lg:w-[64rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10"
             width={2432}
