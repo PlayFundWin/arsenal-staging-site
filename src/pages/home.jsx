@@ -32,7 +32,7 @@ export default Page;
 
 function News() {
   return (
-    <div className="flex items-center gap-x-6 bg-black px-6 py-2.5 sm:px-3.5 sm:before:flex-1">
+    <div className="flex items-center gap-x-6 bg-[#121826] px-6 py-2.5 sm:px-3.5 sm:before:flex-1">
       <p className="text-sm leading-6 text-white">
         <a href="#">The Prize Draw closes on 7th July 2024 at 3pm, GMT.</a>
       </p>
@@ -51,7 +51,7 @@ function News() {
 
 function Home() {
   return (
-    <div className="relative bg-blue-white">
+    <div className="relative bg-white">
       <div className="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
         <div className="px-6 pb-24 pt-10 sm:pb-32 lg:col-span-7 lg:px-0 lg:pb-56 lg:pt-48 xl:col-span-6">
           <div className="mx-auto max-w-2xl lg:mx-0">
@@ -138,7 +138,7 @@ const products = [
 
 function Products() {
   return (
-    <div className="bg-yellow-white" id="prizes">
+    <div className="bg-[#988352]" id="prizes">
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
         <div className="md:flex md:items-center md:justify-between">
           <h2 className="text-2xl font-bold tracking-tight text-white">
@@ -447,9 +447,9 @@ function FAQ() {
 */
 function CTA() {
   return (
-    <div className="bg-whiter-blue py-16 sm:py-24 lg:py-32">
+    <div className="bg-[#121826] py-16 sm:py-24 lg:py-32">
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 lg:grid-cols-12 lg:gap-8 lg:px-8">
-        <div className="max-w-xl text-3xl font-bold tracking-tight text-black sm:text-4xl lg:col-span-7">
+        <div className="max-w-xl text-3xl font-bold tracking-tight text-white sm:text-4xl lg:col-span-7">
           <h2 className="inline sm:block lg:inline xl:block">
             Hear more about the prize draw.
           </h2>
@@ -458,9 +458,9 @@ function CTA() {
             Sign up for our newsletter.
           </p>
         </div>
-        <form className="w-full max-w-md text-black lg:col-span-5 lg:pt-2">
+        <form className="w-full max-w-md text-white lg:col-span-5 lg:pt-2">
           <div className="flex gap-x-4">
-            <label htmlFor="email-address" className="sr-only  text-black">
+            <label htmlFor="email-address" className="sr-only  text-white">
               Email address
             </label>
             <input
@@ -469,7 +469,7 @@ function CTA() {
               type="email"
               autoComplete="email"
               required
-              className="text-black min-w-0 flex-auto rounded-md border-0 bg-white/10 px-3.5 py-2  shadow-sm ring-1 ring-inset ring-white/10 placeholder:text-black/75 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm sm:leading-6"
+              className="text-white min-w-0 flex-auto rounded-md border-0 bg-white/10 px-3.5 py-2  shadow-sm ring-1 ring-inset ring-white/10 placeholder:text-white/75 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm sm:leading-6"
               placeholder="Enter your email"
             />
             <button
@@ -479,11 +479,11 @@ function CTA() {
               Subscribe
             </button>
           </div>
-          <p className="mt-4 text-sm leading-6 text-black">
+          <p className="mt-4 text-sm leading-6 text-white">
             We care about your data. Read our{' '}
             <a
               href="#"
-              className="font-semibold text-black hover:text-indigo-50"
+              className="font-semibold text-white hover:text-indigo-50"
             >
               privacy&nbsp;policy
             </a>

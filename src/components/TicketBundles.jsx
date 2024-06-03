@@ -69,14 +69,14 @@ export function TicketBundles() {
   }
 
   return (
-    <div className="bg-lilac py-24 sm:py-32" id="tickets">
+    <div className="bg-[#121826] py-24 sm:py-32" id="tickets">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="text-base font-semibold leading-7 text-white">
             Win Big.
           </h2>
           <p className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">
-            Enter the House of Hendrix Prize Draw
+            Enter the Arsenal Prize Draw
           </p>
         </div>
         <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-[#ffffff]">
@@ -87,19 +87,13 @@ export function TicketBundles() {
             <div
               key={tier.id}
               className={classNames(
-                tier.mostPopular
-                  ? 'bg-[#6366f1] ring-2 ring-indigo-900'
-                  : 'bg-[#e5e0ff] ring-1 ring-white/10',
-                'rounded-3xl p-8 xl:p-10 '
+                'bg-white text-black rounded-3xl p-8 xl:p-10 '
               )}
             >
               <div className="flex items-center justify-between gap-x-4">
                 <h3
                   id={tier.id}
-                  className={classNames(
-                    tier.mostPopular ? 'text-white' : 'text-black',
-                    'text-lg font-semibold leading-8'
-                  )}
+                  className={classNames('text-lg font-semibold leading-8')}
                 >
                   {tier.name}
                 </h3>
@@ -109,20 +103,12 @@ export function TicketBundles() {
                   </p>
                 ) : null}
               </div>
-              <p
-                className={classNames(
-                  tier.mostPopular ? 'text-white' : 'text-black',
-                  'mt-4 text-sm leading-6'
-                )}
-              >
+              <p className={classNames('mt-4 text-sm leading-6')}>
                 {tier.description}
               </p>
               <p className="mt-6 flex items-baseline gap-x-1">
                 <span
-                  className={classNames(
-                    tier.mostPopular ? 'text-white' : 'text-black',
-                    'text-4xl font-bold tracking-tight'
-                  )}
+                  className={classNames('text-4xl font-bold tracking-tight')}
                 >
                   £{tier.price[frequency.value]}
                 </span>
@@ -131,10 +117,7 @@ export function TicketBundles() {
                 to={tier.href}
                 aria-describedby={tier.id}
                 className={classNames(
-                  tier.mostPopular
-                    ? 'bg-black text-white shadow-sm hover:bg-indigo-400 focus-visible:outline-indigo-500'
-                    : 'bg-black text-white hover:bg-white/20 focus-visible:outline-white',
-                  'mt-6 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2'
+                  'bg-black text-white hover:bg-white/20 focus-visible:outline-white mt-6 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2'
                 )}
                 onClick={() => {
                   setEntries(tier.entries);
