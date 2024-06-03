@@ -57,33 +57,34 @@ function Home() {
           <div className="mx-auto max-w-2xl lg:mx-0">
             <img
               className="h-11"
-              src="https://s3.eu-west-2.amazonaws.com/pfw.storage.bucket/images/a9b422ab-2309-45c4-afed-15527dc0053e-Handel%20%26amp%3B%20Hendrix%20Logo.png"
+              src="https://s3.eu-west-2.amazonaws.com/pfw.storage.bucket/images/b6c651d4-9ebc-4eff-a8eb-43f1a1270733-Logo%20001.png"
               alt="Your Company"
             />
             <div className="hidden sm:mt-32 sm:flex lg:mt-16">
               <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                Help us keep the Jimi Hendrix Archive in permanent residence at
-                Handel & Hendrix House.{' '}
+                Support the Arsenal Foundation's mission to help young people
+                fulfil their potential.{' '}
                 <a
                   href="#secure-the-legacy"
-                  className="whitespace-nowrap font-semibold text-indigo-600"
+                  className="whitespace-nowrap font-semibold text-[#988352]"
                 >
-                  <span className="absolute inset-0" aria-hidden="true" />
+                  <span className=" absolute inset-0" aria-hidden="true" />
                   Read more <span aria-hidden="true">&rarr;</span>
                 </a>
               </div>
             </div>
             <h1 className="mt-24 text-4xl font-bold tracking-tight text-gray-900 sm:mt-10 sm:text-6xl">
-              Win the chance to get hands on at the House of Hendrix
+              Win the Ultimate Matchday Experience.
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Be one of six lucky winners to exclusively get up and personal
-              with never-before-seen items from Jimi Hendrix’s personal archive.
+              Experience match day at the Emirates Stadium in style. Enjoy a
+              Champions League night under the lights, and get the VIP
+              treatment.
             </p>
             <div className="mt-10 flex items-center gap-x-6">
               <a
                 href="#tickets"
-                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="rounded-md bg-[#DD2F21] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#DD2F21]-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Enter the Draw
               </a>
@@ -93,7 +94,7 @@ function Home() {
         <div className="relative lg:col-span-5 lg:-mr-8 xl:absolute xl:inset-0 xl:left-1/2 xl:ml-20 xl:mr-0">
           <img
             className="aspect-[3/2] w-full bg-gray-50 object-cover lg:absolute lg:inset-0 lg:aspect-auto lg:h-full"
-            src="https://s3.eu-west-2.amazonaws.com/pfw.storage.bucket/images/7d0038f8-02bb-4460-80f1-21800106e106-Jimi%20Hendrix%20-%20Draw%20Header.jpg"
+            src="https://s3.eu-west-2.amazonaws.com/pfw.storage.bucket/images/ad61c1b3-d04e-44da-80f0-78a2bb349f1c-Hero%20Image.jpg"
             alt=""
           />
         </div>
@@ -105,32 +106,32 @@ function Home() {
 const products = [
   {
     id: 1,
-    name: `Immerse yourself in the world of Jimi Hendrix as you explore the archive's vast collection of rare photographs, handwritten lyrics, and personal artefacts`,
+    name: `First Prize: Win a VIP Champions League Group Game Experience at Emirates Stadium. Soak up the electric atmosphere and enjoy world-class football in ultimate style.`,
     color: 'Natural',
     price: '',
     href: '#',
     imageSrc:
-      'https://s3.eu-west-2.amazonaws.com/pfw.storage.bucket/images/d5dbd803-f7ba-4eff-9f21-49f851d8a09f-Prize%201.jpg',
+      'https://s3.eu-west-2.amazonaws.com/pfw.storage.bucket/images/d72de577-648f-4886-a652-f390f84a8863-Prize%201.jpg',
     imageAlt: 'Hand stitched, orange leather long wallet.',
   },
   {
     id: 2,
-    name: `Experience the thrill of being among the first to see the Jimi Hendrix Archive before it opens to the public, guided by expert curators who will share the stories behind each piece.`,
+    name: `Second Prize: Win tickets for two to watch the Gunners at the Emirates for one of our Premier League fixtures, and bag some exclusive Arsenal memorabilia.`,
     color: 'Black',
     price: '',
     href: '#',
     imageSrc:
-      'https://s3.eu-west-2.amazonaws.com/pfw.storage.bucket/images/f396b77c-fc8f-416f-be3c-2739bce0f5b0-Prize%202.jpg',
+      'https://s3.eu-west-2.amazonaws.com/pfw.storage.bucket/images/7fd670f9-467a-4f72-943f-9f48204646a9-Prize%202.jpg',
     imageAlt: 'Machined steel desk object with black powder coat finish.',
   },
   {
     id: 3,
-    name: `Create unforgettable memories as you gain exclusive, hands-on access to the archive, deepening your understanding of Hendrix's life, artistry, and enduring influence on music history.`,
+    name: `Third Prize: Win a men's 24/25 squad signed Arsenal shirt along with a matchday programme of your choice.`,
     color: 'White',
     price: '',
     href: '#',
     imageSrc:
-      'https://s3.eu-west-2.amazonaws.com/pfw.storage.bucket/images/a308096c-4b73-4f11-a78d-1eb268825eca-Prize%203.jpg',
+      'https://s3.eu-west-2.amazonaws.com/pfw.storage.bucket/images/9850f79c-160f-451c-8ff6-770958cd8eb9-Prize%203.jpg',
     imageAlt: 'Side of white leather sneaker.',
   },
 ];
@@ -140,12 +141,12 @@ function Products() {
     <div className="bg-yellow-white" id="prizes">
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
         <div className="md:flex md:items-center md:justify-between">
-          <h2 className="text-2xl font-bold tracking-tight text-gray-900">
-            Prize Includes
+          <h2 className="text-2xl font-bold tracking-tight text-white">
+            Prizes Include
           </h2>
           <a
             href="/#tickets"
-            className="hidden text-sm font-medium text-indigo-600 hover:text-indigo-500 md:block"
+            className="hidden text-sm font-medium text-white hover:text-indigo-500 md:block"
             onClick={() => document.getElementById('tickets')?.scrollIntoView()}
           >
             Enter the Draw <span aria-hidden="true"> &rarr;</span>
@@ -162,11 +163,11 @@ function Products() {
                   className="h-full w-full object-cover object-center"
                 />
               </div>
-              <h3 className="mt-4 text-sm text-gray-700">
-                <a href={product.href}>
+              <h3 className="mt-4 text-sm text-white">
+                <p>
                   <span className="absolute inset-0" />
                   {product.name}
-                </a>
+                </p>
               </h3>
               {/* <p className="mt-1 text-sm text-gray-500">{product.color}</p> */}
               <p className="mt-1 text-sm font-medium text-gray-900">
@@ -192,59 +193,52 @@ function Products() {
 
 function Testimonials() {
   return (
-    <section className="bg-gray-900 py-24 sm:py-32">
+    <section className="bg-[#ffffff] py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="flex flex-col pb-10 sm:pb-16 lg:pb-0 lg:pr-8 xl:pr-20">
             <figure className="mt-10 flex flex-auto flex-col justify-between">
-              <blockquote className="text-lg leading-8 text-white">
+              <blockquote className="text-lg leading-8 text-[#000000]">
                 <p>
-                  "Jimi Hendrix was a true pioneer and an unparalleled talent.
-                  The Jimi Hendrix Archive is a testament to his enduring
-                  legacy, and I'm thrilled to support this initiative. By
-                  participating in this prize draw, you not only have the chance
-                  to win an incredible experience but also play a vital role in
-                  preserving music history. Don't miss this opportunity to be a
-                  part of something truly special."
+                  "We know that the power of the Arsenal name can open doors to
+                  young people who may otherwise be lost to society."
                 </p>
               </blockquote>
               <figcaption className="mt-10 flex items-center gap-x-6">
                 <img
                   className="h-14 w-14 rounded-full bg-gray-800"
-                  src="https://s3.eu-west-2.amazonaws.com/pfw.storage.bucket/images/6cfb83d4-3b0e-48b6-9c24-b217987b6593-Clapton.jpg"
+                  src="https://s3.eu-west-2.amazonaws.com/pfw.storage.bucket/images/2ca91c84-a6f1-464f-8909-70c48315f034-Wenger.png"
                   alt=""
                 />
                 <div className="text-base">
-                  <div className="font-semibold text-white">Eric Clapton</div>
-                  <div className="mt-1 text-gray-400">Legend of Rock</div>
+                  <div className="font-semibold text-white">Arsène Wenger</div>
+                  <div className="mt-1 text-gray-400">
+                    Former Arsenal Manager and Arsenal Foundation Ambassador.
+                  </div>
                 </div>
               </figcaption>
             </figure>
           </div>
           <div className="flex flex-col border-t border-white/10 pt-10 sm:pt-16 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0 xl:pl-20">
             <figure className="mt-10 flex flex-auto flex-col justify-between">
-              <blockquote className="text-lg leading-8 text-white">
+              <blockquote className="text-lg leading-8 text-[#000000]">
                 <p>
-                  "As a lifelong admirer of Jimi Hendrix, I'm honoured to
-                  endorse this prize draw in support of the Jimi Hendrix
-                  Archive. This collection is an absolute treasure, offering a
-                  fascinating glimpse into the mind and artistry of one of the
-                  greatest guitarists of all time. By taking part, you'll be
-                  helping to ensure that his legacy continues to inspire future
-                  generations of musicians and music lovers alike. It's a chance
-                  to make a real difference while potentially winning a
-                  once-in-a-lifetime experience."
+                  "I’m so proud that Arsenal and Save the Children are making
+                  such a difference to so many children’s lives. It was truly
+                  inspiring to see the power that football can have."
                 </p>
               </blockquote>
               <figcaption className="mt-10 flex items-center gap-x-6">
                 <img
                   className="h-14 w-14 rounded-full bg-gray-800"
-                  src="https://s3.eu-west-2.amazonaws.com/pfw.storage.bucket/images/f364168e-0672-42ba-8267-10483f78a23c-May.jpg"
+                  src="https://s3.eu-west-2.amazonaws.com/pfw.storage.bucket/images/a028163a-8e82-4adf-b883-57df36b4f3c2-Scott.png"
                   alt=""
                 />
                 <div className="text-base">
-                  <div className="font-semibold text-white">Brian May</div>
-                  <div className="mt-1 text-gray-400">Legend of Rock</div>
+                  <div className="font-semibold text-white">Alex Scott MBE</div>
+                  <div className="mt-1 text-gray-400">
+                    Former Player. Arsenal Foundation Ambassador
+                  </div>
                 </div>
               </figcaption>
             </figure>
@@ -262,31 +256,42 @@ function ProductDetails1() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:ml-auto lg:pl-4 lg:pt-4">
             <div className="lg:max-w-lg">
-              <h2 className="text-base font-semibold leading-7 text-indigo-600">
+              <h2 className="text-base font-semibold leading-7 text-[#DD2F21]">
                 Win Exclusive Access
               </h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                Be Among the First to Experience the Jimi Hendrix Archive
+                Win the Ultimate Champions League Experience at the Emirates
               </p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                As one of six lucky winners, you'll have the extraordinary
-                opportunity to immerse yourself in the Jimi Hendrix Archive
-                before it opens to the public. This once-in-a-lifetime
-                experience grants you exclusive, hands-on access to a treasure
-                trove of rare memorabilia, personal artefacts, and
-                never-before-seen documents that provide unparalleled insight
-                into the life and artistry of one of music's most influential
-                figures.
+                Get ready for an unforgettable Champions League night at
+                Emirates Stadium! After a thrilling Premier League season that
+                went down to the wire, Arsenal have once again secured their
+                place among Europe's elite. Now, you have the chance to
+                experience the electric atmosphere of a crucial group stage
+                match in ultimate style.
               </p>{' '}
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Guided by expert curators, you'll embark on a journey through
-                Hendrix's groundbreaking career, uncovering the stories behind
-                each carefully preserved piece in the archive. From intimate
-                photographs to handwritten lyrics, you'll gain a deeper
-                understanding of the man behind the legend, all while being
-                among the first to explore this monumental collection. Don't
-                miss your chance to be part of music history and create
-                unforgettable memories at the Handel and Hendrix Museum.
+                Building on last season's impressive knockout stage performance,
+                the Gunners are determined to make their mark on the continent.
+                With the VIP treatment, you'll be at the heart of the action as
+                Arsenal take on one of Europe's top teams under the floodlights.
+                Soak up the pre-match excitement, watch the players arrive, and
+                feel the anticipation build as kick-off approaches.
+              </p>
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+                As a VIP guest, you'll enjoy the best seats in the house, with
+                unrivaled views of the pitch and the opportunity to witness
+                world-class football up close. Immerse yourself in the passion
+                and energy of the crowd as Arsenal battle for supremacy in the
+                group stage, aiming to secure their place in the knockout rounds
+                and surpass last season's achievements.
+              </p>{' '}
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+                This is your chance to be part of Arsenal's European journey, as
+                they strive to etch their name in Champions League history.
+                Don't miss this incredible opportunity to experience a memorable
+                night of Champions League football at Emirates Stadium, where
+                dreams are made and legends are born.
               </p>
             </div>
           </div>
@@ -315,11 +320,11 @@ function ProductDetails2() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <h2 className="text-base font-semibold leading-7 text-indigo-600">
-                Secure the Legacy
+              <h2 className="text-base font-semibold leading-7 text-[#DD2F21]">
+                Support the Foundation
               </h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                Support the Jimi Hendrix Archive at Handel and Hendrix House
+                Help the Arsenal Foundation Shape the Lives of Young People
               </p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 Nestled in the heart of London, the Handel and Hendrix Museum is
@@ -469,7 +474,7 @@ function CTA() {
             />
             <button
               type="submit"
-              className="flex-none rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-indigo-600 shadow-sm hover:bg-indigo-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+              className="text-[#988352] flex-none rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-indigo-600 shadow-sm hover:bg-indigo-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
             >
               Subscribe
             </button>
