@@ -81,7 +81,7 @@ export function Header() {
               <span className="sr-only">Your Company</span>
               <img
                 className="h-8 w-auto"
-                src="https://s3.eu-west-2.amazonaws.com/pfw.storage.bucket/images/a9b422ab-2309-45c4-afed-15527dc0053e-Handel%20%26amp%3B%20Hendrix%20Logo.png"
+                src="https://s3.eu-west-2.amazonaws.com/pfw.storage.bucket/images/02e148b6-cd4c-43b2-ad00-c1cfed7abfb9-Arsenal%20Crest.png"
                 alt=""
               />
             </a>
