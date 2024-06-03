@@ -1,30 +1,30 @@
-import { Dialog } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import { Disclosure } from "@headlessui/react";
-import { MinusSmallIcon, PlusSmallIcon } from "@heroicons/react/24/outline";
+import { Dialog } from '@headlessui/react';
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import { Disclosure } from '@headlessui/react';
+import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline';
 
-import { Logo } from "../components/Logo";
-import { Container } from "../components/Container";
-import { NavLink } from "../components/Link";
-import { TicketBundles } from "../components/TicketBundles";
-import { Header } from "../components/Header";
-const { Fragment } = require("react");
+import { Logo } from '../components/Logo';
+import { Container } from '../components/Container';
+import { NavLink } from '../components/Link';
+import { TicketBundles } from '../components/TicketBundles';
+import { Header } from '../components/Header';
+import { Fragment } from 'react';
 
 const Page = () => {
   return (
-      <Fragment>
-        <Header />
-        <News />
-        <Home />
-        <Products />
-        <Testimonials />
-        <TicketBundles />
-        <ProductDetails1 />
-        <ProductDetails2 />
-        <FAQ />
-        <CTA />
-        <Footer />
-      </Fragment>
+    <Fragment>
+      <Header />
+      <News />
+      <Home />
+      <Products />
+      <Testimonials />
+      <TicketBundles />
+      <ProductDetails1 />
+      <ProductDetails2 />
+      <FAQ />
+      <CTA />
+      <Footer />
+    </Fragment>
   );
 };
 
@@ -37,7 +37,10 @@ function News() {
         <a href="#">The Prize Draw closes on 7th July 2024 at 3pm, GMT.</a>
       </p>
       <div className="flex flex-1 justify-end">
-        <button type="button" className="-m-3 p-3 focus-visible:outline-offset-[-4px]">
+        <button
+          type="button"
+          className="-m-3 p-3 focus-visible:outline-offset-[-4px]"
+        >
           <span className="sr-only">Dismiss</span>
           <XMarkIcon className="h-5 w-5 text-white" aria-hidden="true" />
         </button>
@@ -59,16 +62,23 @@ function Home() {
             />
             <div className="hidden sm:mt-32 sm:flex lg:mt-16">
               <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                Help us keep the Jimi Hendrix Archive in permanent residence at Handel & Hendrix House.{" "}
-                <a href="#secure-the-legacy" className="whitespace-nowrap font-semibold text-indigo-600">
+                Help us keep the Jimi Hendrix Archive in permanent residence at
+                Handel & Hendrix House.{' '}
+                <a
+                  href="#secure-the-legacy"
+                  className="whitespace-nowrap font-semibold text-indigo-600"
+                >
                   <span className="absolute inset-0" aria-hidden="true" />
                   Read more <span aria-hidden="true">&rarr;</span>
                 </a>
               </div>
             </div>
-            <h1 className="mt-24 text-4xl font-bold tracking-tight text-gray-900 sm:mt-10 sm:text-6xl">Win the chance to get hands on at the House of Hendrix</h1>
+            <h1 className="mt-24 text-4xl font-bold tracking-tight text-gray-900 sm:mt-10 sm:text-6xl">
+              Win the chance to get hands on at the House of Hendrix
+            </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Be one of six lucky winners to exclusively get up and personal with never-before-seen items from Jimi Hendrix’s personal archive.
+              Be one of six lucky winners to exclusively get up and personal
+              with never-before-seen items from Jimi Hendrix’s personal archive.
             </p>
             <div className="mt-10 flex items-center gap-x-6">
               <a
@@ -96,29 +106,32 @@ const products = [
   {
     id: 1,
     name: `Immerse yourself in the world of Jimi Hendrix as you explore the archive's vast collection of rare photographs, handwritten lyrics, and personal artefacts`,
-    color: "Natural",
-    price: "",
-    href: "#",
-    imageSrc: "https://s3.eu-west-2.amazonaws.com/pfw.storage.bucket/images/d5dbd803-f7ba-4eff-9f21-49f851d8a09f-Prize%201.jpg",
-    imageAlt: "Hand stitched, orange leather long wallet.",
+    color: 'Natural',
+    price: '',
+    href: '#',
+    imageSrc:
+      'https://s3.eu-west-2.amazonaws.com/pfw.storage.bucket/images/d5dbd803-f7ba-4eff-9f21-49f851d8a09f-Prize%201.jpg',
+    imageAlt: 'Hand stitched, orange leather long wallet.',
   },
   {
     id: 2,
     name: `Experience the thrill of being among the first to see the Jimi Hendrix Archive before it opens to the public, guided by expert curators who will share the stories behind each piece.`,
-    color: "Black",
-    price: "",
-    href: "#",
-    imageSrc: "https://s3.eu-west-2.amazonaws.com/pfw.storage.bucket/images/f396b77c-fc8f-416f-be3c-2739bce0f5b0-Prize%202.jpg",
-    imageAlt: "Machined steel desk object with black powder coat finish.",
+    color: 'Black',
+    price: '',
+    href: '#',
+    imageSrc:
+      'https://s3.eu-west-2.amazonaws.com/pfw.storage.bucket/images/f396b77c-fc8f-416f-be3c-2739bce0f5b0-Prize%202.jpg',
+    imageAlt: 'Machined steel desk object with black powder coat finish.',
   },
   {
     id: 3,
     name: `Create unforgettable memories as you gain exclusive, hands-on access to the archive, deepening your understanding of Hendrix's life, artistry, and enduring influence on music history.`,
-    color: "White",
-    price: "",
-    href: "#",
-    imageSrc: "https://s3.eu-west-2.amazonaws.com/pfw.storage.bucket/images/a308096c-4b73-4f11-a78d-1eb268825eca-Prize%203.jpg",
-    imageAlt: "Side of white leather sneaker.",
+    color: 'White',
+    price: '',
+    href: '#',
+    imageSrc:
+      'https://s3.eu-west-2.amazonaws.com/pfw.storage.bucket/images/a308096c-4b73-4f11-a78d-1eb268825eca-Prize%203.jpg',
+    imageAlt: 'Side of white leather sneaker.',
   },
 ];
 
@@ -127,11 +140,13 @@ function Products() {
     <div className="bg-yellow-white" id="prizes">
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
         <div className="md:flex md:items-center md:justify-between">
-          <h2 className="text-2xl font-bold tracking-tight text-gray-900">Prize Includes</h2>
+          <h2 className="text-2xl font-bold tracking-tight text-gray-900">
+            Prize Includes
+          </h2>
           <a
             href="/#tickets"
             className="hidden text-sm font-medium text-indigo-600 hover:text-indigo-500 md:block"
-            onClick={() => document.getElementById("tickets")?.scrollIntoView()}
+            onClick={() => document.getElementById('tickets')?.scrollIntoView()}
           >
             Enter the Draw <span aria-hidden="true"> &rarr;</span>
           </a>
@@ -141,7 +156,11 @@ function Products() {
           {products.map((product) => (
             <div key={product.id} className="group relative">
               <div className="h-56 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:h-72 xl:h-80">
-                <img src={product.imageSrc} alt={product.imageAlt} className="h-full w-full object-cover object-center" />
+                <img
+                  src={product.imageSrc}
+                  alt={product.imageAlt}
+                  className="h-full w-full object-cover object-center"
+                />
               </div>
               <h3 className="mt-4 text-sm text-gray-700">
                 <a href={product.href}>
@@ -150,13 +169,18 @@ function Products() {
                 </a>
               </h3>
               {/* <p className="mt-1 text-sm text-gray-500">{product.color}</p> */}
-              <p className="mt-1 text-sm font-medium text-gray-900">{product.price}</p>
+              <p className="mt-1 text-sm font-medium text-gray-900">
+                {product.price}
+              </p>
             </div>
           ))}
         </div>
 
         <div className="mt-8 text-sm md:hidden">
-          <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+          <a
+            href="#"
+            className="font-medium text-indigo-600 hover:text-indigo-500"
+          >
             Enter the Draw
             <span aria-hidden="true"> &rarr;</span>
           </a>
@@ -175,9 +199,13 @@ function Testimonials() {
             <figure className="mt-10 flex flex-auto flex-col justify-between">
               <blockquote className="text-lg leading-8 text-white">
                 <p>
-                  "Jimi Hendrix was a true pioneer and an unparalleled talent. The Jimi Hendrix Archive is a testament to his enduring legacy, and I'm thrilled to support this
-                  initiative. By participating in this prize draw, you not only have the chance to win an incredible experience but also play a vital role in preserving music
-                  history. Don't miss this opportunity to be a part of something truly special."
+                  "Jimi Hendrix was a true pioneer and an unparalleled talent.
+                  The Jimi Hendrix Archive is a testament to his enduring
+                  legacy, and I'm thrilled to support this initiative. By
+                  participating in this prize draw, you not only have the chance
+                  to win an incredible experience but also play a vital role in
+                  preserving music history. Don't miss this opportunity to be a
+                  part of something truly special."
                 </p>
               </blockquote>
               <figcaption className="mt-10 flex items-center gap-x-6">
@@ -197,9 +225,14 @@ function Testimonials() {
             <figure className="mt-10 flex flex-auto flex-col justify-between">
               <blockquote className="text-lg leading-8 text-white">
                 <p>
-                  "As a lifelong admirer of Jimi Hendrix, I'm honoured to endorse this prize draw in support of the Jimi Hendrix Archive. This collection is an absolute treasure,
-                  offering a fascinating glimpse into the mind and artistry of one of the greatest guitarists of all time. By taking part, you'll be helping to ensure that his
-                  legacy continues to inspire future generations of musicians and music lovers alike. It's a chance to make a real difference while potentially winning a
+                  "As a lifelong admirer of Jimi Hendrix, I'm honoured to
+                  endorse this prize draw in support of the Jimi Hendrix
+                  Archive. This collection is an absolute treasure, offering a
+                  fascinating glimpse into the mind and artistry of one of the
+                  greatest guitarists of all time. By taking part, you'll be
+                  helping to ensure that his legacy continues to inspire future
+                  generations of musicians and music lovers alike. It's a chance
+                  to make a real difference while potentially winning a
                   once-in-a-lifetime experience."
                 </p>
               </blockquote>
@@ -229,23 +262,37 @@ function ProductDetails1() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:ml-auto lg:pl-4 lg:pt-4">
             <div className="lg:max-w-lg">
-              <h2 className="text-base font-semibold leading-7 text-indigo-600">Win Exclusive Access</h2>
-              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Be Among the First to Experience the Jimi Hendrix Archive</p>
+              <h2 className="text-base font-semibold leading-7 text-indigo-600">
+                Win Exclusive Access
+              </h2>
+              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                Be Among the First to Experience the Jimi Hendrix Archive
+              </p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                As one of six lucky winners, you'll have the extraordinary opportunity to immerse yourself in the Jimi Hendrix Archive before it opens to the public. This
-                once-in-a-lifetime experience grants you exclusive, hands-on access to a treasure trove of rare memorabilia, personal artefacts, and never-before-seen documents
-                that provide unparalleled insight into the life and artistry of one of music's most influential figures.
-              </p>{" "}
+                As one of six lucky winners, you'll have the extraordinary
+                opportunity to immerse yourself in the Jimi Hendrix Archive
+                before it opens to the public. This once-in-a-lifetime
+                experience grants you exclusive, hands-on access to a treasure
+                trove of rare memorabilia, personal artefacts, and
+                never-before-seen documents that provide unparalleled insight
+                into the life and artistry of one of music's most influential
+                figures.
+              </p>{' '}
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Guided by expert curators, you'll embark on a journey through Hendrix's groundbreaking career, uncovering the stories behind each carefully preserved piece in the
-                archive. From intimate photographs to handwritten lyrics, you'll gain a deeper understanding of the man behind the legend, all while being among the first to
-                explore this monumental collection. Don't miss your chance to be part of music history and create unforgettable memories at the Handel and Hendrix Museum.
+                Guided by expert curators, you'll embark on a journey through
+                Hendrix's groundbreaking career, uncovering the stories behind
+                each carefully preserved piece in the archive. From intimate
+                photographs to handwritten lyrics, you'll gain a deeper
+                understanding of the man behind the legend, all while being
+                among the first to explore this monumental collection. Don't
+                miss your chance to be part of music history and create
+                unforgettable memories at the Handel and Hendrix Museum.
               </p>
             </div>
           </div>
           <div className="flex items-start justify-center sm:justify-end lg:order-first">
             <img
-              src="https://s3.eu-west-2.amazonaws.com/pfw.storage.bucket/images/fd7ae71a-005f-4109-abb0-b863bf488edb-Hendrix%20001.jpg"
+              src="https://s3.eu-west-2.amazonaws.com/pfw.storage.bucket/images/d5268ff7-d1f7-49e2-bcc3-51487496e9f3-Experience%20Image.jpg"
               alt="Product screenshot"
               className="w-full sm:w-[48rem] md:w-[57rem] lg:w-[64rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10"
               width={2432}
@@ -260,28 +307,43 @@ function ProductDetails1() {
 
 function ProductDetails2() {
   return (
-    <div id="secure-the-legacy" className="overflow-hidden bg-white py-24 sm:py-32">
+    <div
+      id="secure-the-legacy"
+      className="overflow-hidden bg-white py-24 sm:py-32"
+    >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <h2 className="text-base font-semibold leading-7 text-indigo-600">Secure the Legacy</h2>
-              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Support the Jimi Hendrix Archive at Handel and Hendrix House</p>
+              <h2 className="text-base font-semibold leading-7 text-indigo-600">
+                Secure the Legacy
+              </h2>
+              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                Support the Jimi Hendrix Archive at Handel and Hendrix House
+              </p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Nestled in the heart of London, the Handel and Hendrix Museum is a unique cultural gem that celebrates the lives and legacies of two musical icons: George Frideric
-                Handel and Jimi Hendrix. This historic building, once home to Hendrix himself, now houses an extraordinary collection of memorabilia and artefacts, including the
-                newly acquired Jimi Hendrix Archive.
-              </p>{" "}
+                Nestled in the heart of London, the Handel and Hendrix Museum is
+                a unique cultural gem that celebrates the lives and legacies of
+                two musical icons: George Frideric Handel and Jimi Hendrix. This
+                historic building, once home to Hendrix himself, now houses an
+                extraordinary collection of memorabilia and artefacts, including
+                the newly acquired Jimi Hendrix Archive.
+              </p>{' '}
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                By participating in this exclusive prize draw, you not only have the chance to win unparalleled experiences and prizes, but you also play a vital role in ensuring
-                that this remarkable archive remains permanently housed at the museum, accessible to music enthusiasts, researchers, and the public for generations to come. Your
-                support will help preserve and showcase Hendrix's enduring influence, guaranteeing that his groundbreaking artistry continues to inspire and shape the course of
-                music history.
+                By participating in this exclusive prize draw, you not only have
+                the chance to win unparalleled experiences and prizes, but you
+                also play a vital role in ensuring that this remarkable archive
+                remains permanently housed at the museum, accessible to music
+                enthusiasts, researchers, and the public for generations to
+                come. Your support will help preserve and showcase Hendrix's
+                enduring influence, guaranteeing that his groundbreaking
+                artistry continues to inspire and shape the course of music
+                history.
               </p>
             </div>
           </div>
           <img
-            src="https://s3.eu-west-2.amazonaws.com/pfw.storage.bucket/images/ab581681-3c22-4159-8f99-e02844bb6f38-Hendrix%20002.jpg"
+            src="https://s3.eu-west-2.amazonaws.com/pfw.storage.bucket/images/48959e61-050e-447b-bb03-9e46177820bf-Cause%20Image.jpg"
             alt="Product screenshot"
             className="w-full sm:w-[48rem] md:w-[57rem] lg:w-[64rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10"
             width={2432}
@@ -296,27 +358,33 @@ function ProductDetails2() {
 function FAQ() {
   const faqs = [
     {
-      question: "How do you make sure the prize draw is fair and transparent?",
-      answer: "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      question: 'How do you make sure the prize draw is fair and transparent?',
+      answer:
+        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
     },
     {
-      question: "Are there any age restrictions for participants?",
-      answer: "You planet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      question: 'Are there any age restrictions for participants?',
+      answer:
+        'You planet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.',
     },
     {
-      question: "Can I gift my winnings or tickets to someone else?",
-      answer: "Because every play has a cast. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      question: 'Can I gift my winnings or tickets to someone else?',
+      answer:
+        'Because every play has a cast. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.',
     },
     {
-      question: "How is my privacy protected?",
-      answer: "Because he was outstanding in his field. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      question: 'How is my privacy protected?',
+      answer:
+        'Because he was outstanding in his field. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.',
     },
   ];
   return (
     <div className="bg-white" id="faqs">
       <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
         <div className="mx-auto max-w-4xl divide-y divide-gray-900/10">
-          <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900">Frequently asked questions</h2>
+          <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900">
+            Frequently asked questions
+          </h2>
           <dl className="mt-10 space-y-6 divide-y divide-gray-900/10">
             {faqs.map((faq) => (
               <Disclosure as="div" key={faq.question} className="pt-6">
@@ -324,14 +392,28 @@ function FAQ() {
                   <>
                     <dt>
                       <Disclosure.Button className="flex w-full items-start justify-between text-left text-gray-900">
-                        <span className="text-base font-semibold leading-7">{faq.question}</span>
+                        <span className="text-base font-semibold leading-7">
+                          {faq.question}
+                        </span>
                         <span className="ml-6 flex h-7 items-center">
-                          {open ? <MinusSmallIcon className="h-6 w-6" aria-hidden="true" /> : <PlusSmallIcon className="h-6 w-6" aria-hidden="true" />}
+                          {open ? (
+                            <MinusSmallIcon
+                              className="h-6 w-6"
+                              aria-hidden="true"
+                            />
+                          ) : (
+                            <PlusSmallIcon
+                              className="h-6 w-6"
+                              aria-hidden="true"
+                            />
+                          )}
                         </span>
                       </Disclosure.Button>
                     </dt>
                     <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                      <p className="text-base leading-7 text-gray-600">{faq.answer}</p>
+                      <p className="text-base leading-7 text-gray-600">
+                        {faq.answer}
+                      </p>
                     </Disclosure.Panel>
                   </>
                 )}
@@ -363,8 +445,13 @@ function CTA() {
     <div className="bg-whiter-blue py-16 sm:py-24 lg:py-32">
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 lg:grid-cols-12 lg:gap-8 lg:px-8">
         <div className="max-w-xl text-3xl font-bold tracking-tight text-black sm:text-4xl lg:col-span-7">
-          <h2 className="inline sm:block lg:inline xl:block">Hear more about the prize draw.</h2>
-          <br /> <p className="inline sm:block lg:inline xl:block">Sign up for our newsletter.</p>
+          <h2 className="inline sm:block lg:inline xl:block">
+            Hear more about the prize draw.
+          </h2>
+          <br />{' '}
+          <p className="inline sm:block lg:inline xl:block">
+            Sign up for our newsletter.
+          </p>
         </div>
         <form className="w-full max-w-md text-black lg:col-span-5 lg:pt-2">
           <div className="flex gap-x-4">
@@ -388,8 +475,11 @@ function CTA() {
             </button>
           </div>
           <p className="mt-4 text-sm leading-6 text-black">
-            We care about your data. Read our{" "}
-            <a href="#" className="font-semibold text-black hover:text-indigo-50">
+            We care about your data. Read our{' '}
+            <a
+              href="#"
+              className="font-semibold text-black hover:text-indigo-50"
+            >
               privacy&nbsp;policy
             </a>
             .
@@ -416,17 +506,28 @@ function Footer() {
         <div className="flex flex-col items-center border-t border-slate-400/10 py-10 sm:flex-row-reverse sm:justify-between">
           <div className="flex gap-x-6">
             <a href="#" className="group" aria-label="PlayFundWin on X">
-              <svg className="h-6 w-6 fill-slate-500 group-hover:fill-slate-700" aria-hidden="true" viewBox="0 0 24 24">
+              <svg
+                className="h-6 w-6 fill-slate-500 group-hover:fill-slate-700"
+                aria-hidden="true"
+                viewBox="0 0 24 24"
+              >
                 <path d="M13.3174 10.7749L19.1457 4H17.7646L12.7039 9.88256L8.66193 4H4L10.1122 12.8955L4 20H5.38119L10.7254 13.7878L14.994 20H19.656L13.3171 10.7749H13.3174ZM11.4257 12.9738L10.8064 12.0881L5.87886 5.03974H8.00029L11.9769 10.728L12.5962 11.6137L17.7652 19.0075H15.6438L11.4257 12.9742V12.9738Z" />
               </svg>
             </a>
             <a href="#" className="group" aria-label="PlayFundWin on GitHub">
-              <svg className="h-6 w-6 fill-slate-500 group-hover:fill-slate-700" aria-hidden="true" viewBox="0 0 24 24">
+              <svg
+                className="h-6 w-6 fill-slate-500 group-hover:fill-slate-700"
+                aria-hidden="true"
+                viewBox="0 0 24 24"
+              >
                 <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2Z" />
               </svg>
             </a>
           </div>
-          <p className="mt-6 text-sm text-slate-500 sm:mt-0">Copyright &copy; {new Date().getFullYear()} PlayFundWin. All rights reserved.</p>
+          <p className="mt-6 text-sm text-slate-500 sm:mt-0">
+            Copyright &copy; {new Date().getFullYear()} PlayFundWin. All rights
+            reserved.
+          </p>
         </div>
       </Container>
     </footer>
