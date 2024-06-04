@@ -177,10 +177,7 @@ function Products() {
         </div>
 
         <div className="mt-8 text-sm md:hidden">
-          <a
-            href="#"
-            className="font-medium text-indigo-600 hover:text-indigo-500"
-          >
+          <a href="#" className="font-medium text-white">
             Enter the Draw
             <span aria-hidden="true"> &rarr;</span>
           </a>
