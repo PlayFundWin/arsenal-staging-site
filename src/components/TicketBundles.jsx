@@ -75,7 +75,7 @@ export function TicketBundles() {
           <h2 className="text-base font-semibold leading-7 text-white">
             Win Big.
           </h2>
-          <p className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">
+          <p className="mt-2 text-4xl font-bold tracking-tight text-[#DD2F21] sm:text-5xl">
             Enter the Arsenal Prize Draw
           </p>
         </div>
@@ -117,7 +117,7 @@ export function TicketBundles() {
                 to={tier.href}
                 aria-describedby={tier.id}
                 className={classNames(
-                  'bg-black text-white hover:bg-white/20 focus-visible:outline-white mt-6 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2'
+                  'bg-[#DD2F21] text-white hover:bg-white/20 focus-visible:outline-white mt-6 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2'
                 )}
                 onClick={() => {
                   setEntries(tier.entries);

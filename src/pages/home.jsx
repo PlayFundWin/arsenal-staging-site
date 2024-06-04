@@ -210,7 +210,9 @@ function Testimonials() {
                   alt=""
                 />
                 <div className="text-base">
-                  <div className="font-semibold text-white">Arsène Wenger</div>
+                  <div className="font-semibold text-[#DD2F21]">
+                    Arsène Wenger
+                  </div>
                   <div className="mt-1 text-gray-400">
                     Former Arsenal Manager and Arsenal Foundation Ambassador.
                   </div>
@@ -234,7 +236,9 @@ function Testimonials() {
                   alt=""
                 />
                 <div className="text-base">
-                  <div className="font-semibold text-white">Alex Scott MBE</div>
+                  <div className="font-semibold text-[#DD2F21]">
+                    Alex Scott MBE
+                  </div>
                   <div className="mt-1 text-gray-400">
                     Former Player. Arsenal Foundation Ambassador
                   </div>
@@ -326,23 +330,23 @@ function ProductDetails2() {
                 Help the Arsenal Foundation Shape the Lives of Young People
               </p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Nestled in the heart of London, the Handel and Hendrix Museum is
-                a unique cultural gem that celebrates the lives and legacies of
-                two musical icons: George Frideric Handel and Jimi Hendrix. This
-                historic building, once home to Hendrix himself, now houses an
-                extraordinary collection of memorabilia and artefacts, including
-                the newly acquired Jimi Hendrix Archive.
+                The Arsenal Foundation is a beacon of hope for communities in
+                need, working tirelessly to create lasting, positive change. As
+                the beneficiary of this prize draw, the Foundation will be able
+                to continue and expand its vital work, empowering individuals
+                and transforming lives through the power of football.z
               </p>{' '}
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                By participating in this exclusive prize draw, you not only have
-                the chance to win unparalleled experiences and prizes, but you
-                also play a vital role in ensuring that this remarkable archive
-                remains permanently housed at the museum, accessible to music
-                enthusiasts, researchers, and the public for generations to
-                come. Your support will help preserve and showcase Hendrix's
-                enduring influence, guaranteeing that his groundbreaking
-                artistry continues to inspire and shape the course of music
-                history.
+                From providing access to safe spaces for play and learning to
+                delivering educational initiatives that nurture essential life
+                skills, the Arsenal Foundation is committed to breaking down
+                barriers and creating opportunities where they're needed most.
+              </p>{' '}
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+                By participating in this draw, your contribution will help fund
+                innovative programs that harness the universal appeal of
+                football to engage young people, promote health and well-being,
+                and foster social inclusion.
               </p>
             </div>
           </div>
@@ -473,7 +477,7 @@ function CTA() {
             />
             <button
               type="submit"
-              className="text-[#988352] flex-none rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-indigo-600 shadow-sm hover:bg-indigo-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+              className="text-white flex-none rounded-md bg-[#DD2F21] px-3.5 py-2.5 text-sm font-semibold text-indigo-600 shadow-sm hover:bg-indigo-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
             >
               Subscribe
             </button>
